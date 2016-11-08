@@ -2,9 +2,13 @@ const React = require('react')
 
 class RegistrationForm extends React.Component {
   render(){
-    <form>
-      <input type="text"/>
-    </form>
+    return (
+      <form>
+        <input type="text"/>
+        <input type="password"/>
+        <button type="submit"/>
+      </form>
+    )
   }
 }
 
