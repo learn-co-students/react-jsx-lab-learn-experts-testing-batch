@@ -1,6 +1,8 @@
-const React = require('react')
+const React = require('react');
 
-class Webpage extends React.component {
+const FillerText = require('./FillerText');
+
+class Webpage extends React.Component {
   render() {
     return (
       <div>
